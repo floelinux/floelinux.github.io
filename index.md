@@ -40,6 +40,21 @@ Version | TCL     | Kernel | Glibc  | Status
 
 ----
 
+Based on the original [CorePure64 ISO](http://tinycorelinux.net/10.x/x86_64/archive/10.0/CorePure64-10.0.iso) and `tatsushid/tinycore:10.0-x86_64`.
+
+See <https://github.com/tatsushid/docker-tinycore> for the original Dockerfile source
+
+`kvm -cdrom CorePure64-10.0.iso`
+
+![Screenshot of QEMU Core](/assets/qemu-core.png)
+
+`docker images tatsushid/tinycore`
+
+```text
+REPOSITORY          TAG          IMAGE ID      CREATED        SIZE
+tatsushid/tinycore  10.0-x86_64  939e756a8d71  23 months ago  8.65MB
+```
+
 \* _for the boot image, excluding packages_
 
-Based on the original [CorePure64 ISO](http://tinycorelinux.net/10.x/x86_64/archive/10.0/CorePure64-10.0.iso)
+`15M	CorePure64-10.0.iso`
