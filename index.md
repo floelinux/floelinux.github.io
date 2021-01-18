@@ -14,6 +14,10 @@ It uses [Tiny Core Linux](http://tinycorelinux.net/), runs completely from RAM a
 
 Version 20.10 and later
 
+```console
+$ tce-load -wi docker
+```
+
 Packages:
 
 * runc
@@ -25,6 +29,10 @@ See [boot2docker](https://github.com/boot2docker/boot2docker) for 19.03
 #### Podman
 
 Version 2.1.0 and later
+
+```console
+$ tce-load -wi podman
+```
 
 Packages:
 
