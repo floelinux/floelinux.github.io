@@ -3,4 +3,6 @@ Gemfile.lock
 _site/
 .bundle/
 *.iso
+*.zip
 *.tar
+*.tgz

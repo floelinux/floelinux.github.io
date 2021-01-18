@@ -8,6 +8,22 @@ It uses [Tiny Core Linux](http://tinycorelinux.net/), runs completely from RAM a
 
 <a href="http://www.freepik.com">Designed by brgfx / Freepik</a>
 
+### Supported Architectures
+
+#### amd64 (`x86_64`)
+
+Also known as "**CorePure64**"
+
+Core64 had a 64-bit kernel with 32-bit applications,
+CorePure64 has 64-bit apps
+
+#### arm64 (`aarch64`)
+
+Also known as "**piCore64**"
+
+piCore is the Raspberry Pi port of Tiny Core Linux,
+piCore64 has 64-bit support
+
 ### Supported Runtimes
 
 #### Docker
@@ -72,3 +88,7 @@ tatsushid/tinycore  10.0-x86_64  939e756a8d71  23 months ago  8.65MB
 \* _for the boot image, excluding packages_
 
 `15M	CorePure64-10.0.iso`
+
+piCore 11.x only supported `arm32` (32-bit).
+
+`24M	piCore64-12.0.zip`
