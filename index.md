@@ -36,11 +36,13 @@ See [boot2podman](https://github.com/boot2podman/boot2podman) for 1.9.3
 
 ### Version History
 
-Version | TCL     | Kernel | Glibc  | Status
-------- | ------- | ------ | ------ | ------
-0.x     | 10.x    | 4.19   | 2.28   | Previous
-1.x     | 11.x    | 5.4    | 2.30   | Current
-2.x     | 12.x    | 5.10   | 2.32   | Alpha
+Version | TCL     | Kernel | Glibc  | Year   | Status
+------- | ------- | ------ | ------ | ------ | ------
+        | ~~8.x~~ | 4.8    | 2.24   | 2017   | Obsolete
+        | ~~9.x~~ | 4.14   | 2.26   | 2018   | Obsolete
+0.x     | 10.x    | 4.19   | 2.28   | 2019   | Previous
+1.x     | 11.x    | 5.4    | 2.30   | 2020   | Current
+2.x     | 12.x    | 5.10   | 2.32   | 2021   | Alpha
 
 ----
 
