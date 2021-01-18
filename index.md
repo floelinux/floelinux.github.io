@@ -20,9 +20,9 @@ $ tce-load -wi docker
 
 Packages:
 
-* runc
-* containerd
-* docker
+* runc.tcz
+* containerd.tcz
+* docker.tcz
 
 See [boot2docker](https://github.com/boot2docker/boot2docker) for 19.03
 
@@ -36,9 +36,9 @@ $ tce-load -wi podman
 
 Packages:
 
-* crun
-* conmon
-* podman
+* crun.tcz
+* conmon.tcz
+* podman.tcz
 
 See [boot2podman](https://github.com/boot2podman/boot2podman) for 1.9.3
 
