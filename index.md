@@ -8,6 +8,13 @@ It uses [Tiny Core Linux](http://tinycorelinux.net/), runs completely from RAM a
 
 <a href="http://www.freepik.com">Designed by brgfx / Freepik</a>
 
+## Added Features
+
+* Kernel with container support, like `cgroupfs` and `overlayfs`
+* GNU C Library container friendly, support old kernel versions
+* Go language compiler package
+* Container runtime packages
+
 ## Supported Architectures
 
 ### amd64 (`x86_64`)
