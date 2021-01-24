@@ -1,4 +1,7 @@
-# Floe
+---
+title: Floe Linux
+description: Lightweight Distribution
+---
 
 Floe is a lightweight Linux distribution made specifically to run Linux containers.
 
