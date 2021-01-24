@@ -1,4 +1,4 @@
-## Floe
+# Floe
 
 Floe is a lightweight Linux distribution made specifically to run Linux containers.
 
@@ -8,25 +8,25 @@ It uses [Tiny Core Linux](http://tinycorelinux.net/), runs completely from RAM a
 
 <a href="http://www.freepik.com">Designed by brgfx / Freepik</a>
 
-### Supported Architectures
+## Supported Architectures
 
-#### amd64 (`x86_64`)
+### amd64 (`x86_64`)
 
 Also known as "**CorePure64**"
 
 Core64 had a 64-bit kernel with 32-bit applications,
 CorePure64 has 64-bit apps
 
-#### arm64 (`aarch64`)
+### arm64 (`aarch64`)
 
 Also known as "**piCore64**"
 
 piCore is the Raspberry Pi port of Tiny Core Linux,
 piCore64 has 64-bit support
 
-### Supported Runtimes
+## Supported Runtimes
 
-#### Docker
+### Docker
 
 Version 20.10 and later
 
@@ -42,7 +42,7 @@ Packages:
 
 See [boot2docker](https://github.com/boot2docker/boot2docker) for 19.03
 
-#### Podman
+### Podman
 
 Version 2.1.0 and later
 
@@ -58,7 +58,7 @@ Packages:
 
 See [boot2podman](https://github.com/boot2podman/boot2podman) for 1.9.3
 
-### Version History
+## Version History
 
 Version | TCL     | Kernel | Glibc  | Year   | Status
 ------- | ------- | ------ | ------ | ------ | ------
