@@ -7,16 +7,16 @@ Floe is a lightweight Linux distribution made specifically to run Linux containe
 
 It uses [Tiny Core Linux](http://tinycorelinux.net/), runs completely from RAM and is a ~16 MB download*.
 
+## Added Features
+
+* Linux kernel configured with container support, like `cgroupfs` and `overlayfs`
+* GNU C Library (glibc) made container friendly, to support old kernel versions
+* Go language compiler package
+* Container runtime packages
+
 <img alt="Penguin on Ice Floe" src="/assets/floe.jpg" />
 
 <a href="http://www.freepik.com">Designed by brgfx / Freepik</a>
-
-## Added Features
-
-* Kernel with container support, like `cgroupfs` and `overlayfs`
-* GNU C Library container friendly, support old kernel versions
-* Go language compiler package
-* Container runtime packages
 
 ## Supported Architectures
 
@@ -38,35 +38,25 @@ piCore64 has 64-bit support
 
 ### Docker
 
-Version 20.10 and later
+Version 20.10 and later.
+See [boot2docker](https://github.com/boot2docker/boot2docker) for 19.03
 
 ```console
 $ tce-load -wi docker
 ```
 
-Packages:
-
-* runc.tcz
-* containerd.tcz
-* docker.tcz
-
-See [boot2docker](https://github.com/boot2docker/boot2docker) for 19.03
+Packages: runc.tcz, containerd.tcz, docker.tcz
 
 ### Podman
 
-Version 2.1.0 and later
+Version 2.1.0 and later.
+See [boot2podman](https://github.com/boot2podman/boot2podman) for 1.9.3
 
 ```console
 $ tce-load -wi podman
 ```
 
-Packages:
-
-* crun.tcz
-* conmon.tcz
-* podman.tcz
-
-See [boot2podman](https://github.com/boot2podman/boot2podman) for 1.9.3
+Packages: crun.tcz, conmon.tcz, podman.tcz
 
 ## Version History
 
