@@ -27,12 +27,16 @@ Also known as "**CorePure64**"
 Core64 had a 64-bit kernel with 32-bit applications,
 CorePure64 has 64-bit apps
 
+The default ISO bootloader is `isolinux`, and it is tuned for `generic` CPU (VM).
+
 ### arm64 (`aarch64`)
 
 Also known as "**piCore64**"
 
 piCore is the Raspberry Pi port of Tiny Core Linux,
 piCore64 has 64-bit support
+
+This uses the SD card [bootloader](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/bootflow.md), and it is tuned for `cortex-a53` CPU (RPi3).
 
 ## Supported Runtimes
 
