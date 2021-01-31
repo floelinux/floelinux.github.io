@@ -58,6 +58,29 @@ $ tce-load -wi podman
 
 Packages: crun.tcz, conmon.tcz, podman.tcz
 
+## Installation
+
+There is currently no public release avaiable.
+
+### Ice Machine
+
+Virtual machines with Floe can be created using Ice, like so: `ice-machine create`.
+
+### Raspberry Pi
+
+The image download can be flashed directly, using [Balena Etcher](https://balena.io/etcher/) or similar SD tool.
+
+## Packages
+
+* compiletc.tcz
+* go.tcz*
+* git.tcz
+* openssh.tcz
+* docker.tcz*
+* podman.tcz*
+
+Repository, see: <https://bintray.com/floelinux/>
+
 ## Version History
 
 Version | TCL     | Kernel | Glibc  | Year   | Status
