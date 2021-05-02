@@ -87,7 +87,9 @@ The image download can be flashed directly, using [Balena Etcher](https://balena
 * docker.tcz*
 * podman.tcz*
 
-Repository, see: <https://bintray.com/floelinux/>
+Repository, see: <https://cloudsmith.io/~floelinux/repos/>
+
+Package repository hosting is graciously provided by [Cloudsmith](https://cloudsmith.com).
 
 ## Version History
 
