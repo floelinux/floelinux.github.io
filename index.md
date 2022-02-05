@@ -93,13 +93,14 @@ Package repository hosting is graciously provided by [Cloudsmith](https://clouds
 
 ## Version History
 
-Version | TCL     | Kernel | Glibc  | Year   | Status
-------- | ------- | ------ | ------ | ------ | ------
-        | ~~8.x~~ | 4.8    | 2.24   | 2017   | Obsolete
-        | ~~9.x~~ | 4.14   | 2.26   | 2018   | Obsolete
-0.x     | 10.x    | 4.19   | 2.28   | 2019   | Previous
-1.x     | 11.x    | 5.4    | 2.30   | 2020   | Current
-2.x     | 12.x    | 5.10   | 2.32   | 2021   | Alpha
+TCL     | Kernel | Glibc  | Year   | Status
+------- | ------ | ------ | ------ | ------
+~~8.x~~ | 4.8    | 2.24   | 2017   | Obsolete
+~~9.x~~ | 4.14   | 2.26   | 2018   | Obsolete
+10.x    | 4.19   | 2.28   | 2019   | Previous
+11.x    | 5.4    | 2.30   | 2020   | Previous
+12.x    | 5.10   | 2.32   | 2021   | Current
+13.x    | 5.15   | 2.34   | 2022   | Current
 
 ----
 
