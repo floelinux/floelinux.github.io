@@ -74,6 +74,12 @@ There is currently no public release avaiable.
 
 Virtual machines with Floe can be created using Ice, like so: `ice-machine create`.
 
+Note: `ice-machine` is based on the previous `docker-machine` and `podman-machine`.
+
+* <https://github.com/docker/machine> - creating machines with boot2docker.iso
+
+* <https://github.com/boot2podman/machine> - creating machines with boot2podman.iso
+
 ### Raspberry Pi
 
 The image download can be flashed directly, using [Balena Etcher](https://balena.io/etcher/) or similar SD tool.
