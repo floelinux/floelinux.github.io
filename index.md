@@ -125,6 +125,11 @@ REPOSITORY          TAG          IMAGE ID      CREATED        SIZE
 tatsushid/tinycore  10.0-x86_64  939e756a8d71  23 months ago  8.65MB
 ```
 
+```text
+$ docker run -it docker.io/tatsushid/tinycore:10.0-x86_64
+/ $
+```
+
 \* _for the boot image, excluding packages_
 
 `15M	CorePure64-10.0.iso`<br />
