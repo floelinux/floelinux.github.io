@@ -122,6 +122,9 @@ tatsushid/tinycore  10.0-x86_64  939e756a8d71  23 months ago  8.65MB
 \* _for the boot image, excluding packages_
 
 `15M	CorePure64-10.0.iso`
+`16M	CorePure64-11.0.iso`
+`17M	CorePure64-12.0.iso`
+`18M	CorePure64-13.0.iso`
 
 piCore 11.x only supported `arm32` (32-bit).
 
