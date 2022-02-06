@@ -76,9 +76,9 @@ Virtual machines with Floe can be created using Ice, like so: `ice-machine creat
 
 Note: `ice-machine` is based on the previous `docker-machine` and `podman-machine`.
 
-* <https://github.com/docker/machine> - creating machines with boot2docker.iso
+* [docker-machine](https://github.com/docker/machine) - creating machines with boot2docker.iso
 
-* <https://github.com/boot2podman/machine> - creating machines with boot2podman.iso
+* [podman-machine](https://github.com/boot2podman/machine) - creating machines with boot2podman.iso
 
 ### Raspberry Pi
 
