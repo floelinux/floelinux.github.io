@@ -101,12 +101,12 @@ Package repository hosting is graciously provided by [Cloudsmith](https://clouds
 
 TCL     | Kernel | Glibc  | Year   | Status
 ------- | ------ | ------ | ------ | ------
-~~8.x~~ | 4.8    | 2.24   | 2017   | Obsolete
 ~~9.x~~ | 4.14   | 2.26   | 2018   | Obsolete
 10.x    | 4.19   | 2.28   | 2019   | Previous
 11.x    | 5.4    | 2.30   | 2020   | Previous
-12.x    | 5.10   | 2.32   | 2021   | Current
-13.x    | 5.15   | 2.34   | 2022   | Current
+12.x    | 5.10   | 2.32   | 2021   | Previous
+13.x    | 5.15   | 2.34   | 2022   | Previous
+14.x    | 6.1    | 2.36   | 2023   | Current
 
 ----
 
@@ -136,7 +136,10 @@ $ docker run -it docker.io/tatsushid/tinycore:10.0-x86_64
 `16M	CorePure64-11.0.iso`<br />
 `17M	CorePure64-12.0.iso`<br />
 `18M	CorePure64-13.0.iso`<br />
+`19M	CorePure64-14.0.iso`<br />
 
 piCore 11.x only supported `arm32` (32-bit).
 
 `24M	piCore64-12.0.zip`
+`25M	piCore64-13.0.zip`
+`26M	piCore64-14.0.zip`
