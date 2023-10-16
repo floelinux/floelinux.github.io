@@ -140,6 +140,6 @@ $ docker run -it docker.io/tatsushid/tinycore:10.0-x86_64
 
 piCore 11.x only supported `arm32` (32-bit).
 
-`24M	piCore64-12.0.zip`
-`25M	piCore64-13.0.zip`
-`26M	piCore64-14.0.zip`
+`24M	piCore64-12.0.zip`<br />
+`25M	piCore64-13.0.zip`<br />
+`26M	piCore64-14.0.zip`<br />
